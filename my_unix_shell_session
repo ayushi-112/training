@@ -1,15 +1,21 @@
 Script started on 2023-06-01 16:35:55+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd
-[?2004l[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mlibgit2[0m  my_unix_session
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ ls
+[?2004l
+[0m[01;34mlibgit2[0m  my_unix_session
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ ks
-[?2004lks: command not found
+[?2004l
+ks: command not found
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ pwd
-[?2004l/home/ayushi
+[?2004l
+/home/ayushi
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ ls -F
-[?2004l[0m[01;34mlibgit2[0m/  my_unix_session
+[?2004l
+[0m[01;34mlibgit2[0m/  my_unix_session
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ ls --help\[K
-[?2004lUsage: ls [OPTION]... [FILE]...
+[?2004l
+Usage: ls [OPTION]... [FILE]...
 List information about the FILEs (the current directory by default).
 Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
 
@@ -131,7 +137,9 @@ Report any translation bugs to <https://translationproject.org/team/>
 Full documentation <https://www.gnu.org/software/coreutils/ls>
 or available locally via: info '(coreutils) ls invocation'
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ man ls
-[?2004l[?1049h[22;0;0t[?1h=LS(1)                                               User Commands                                               LS(1)[m
+[?2004l
+[?1049h[22;0;0t[?1h=
+LS(1)                                               User Commands                                               LS(1)[m
 [m
 [1mNAME[0m[m
        ls - list directory contents[m
@@ -160,9 +168,12 @@ or available locally via: info '(coreutils) ls invocation'
        [1m--block-size[0m=[4mSIZE[24m[m
               with [1m-l[0m, scale sizes by SIZE when printing them; e.g., '--block-size=M'; see SIZE format below[m
 [m
-[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K       [1m-B[0m, [1m--ignore-backups[0m[m
-[7m Manual page ls(1) line 2 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ ls --help
-[?2004lUsage: ls [OPTION]... [FILE]...
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K
+[K       [1m-B[0m, [1m--ignore-backups[0m[m
+[7m Manual page ls(1) line 2 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049l[23;0;0t[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ ls --help
+[?2004l
+Usage: ls [OPTION]... [FILE]...
 List information about the FILEs (the current directory by default).
 Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
 
@@ -284,67 +295,110 @@ Report any translation bugs to <https://translationproject.org/team/>
 Full documentation <https://www.gnu.org/software/coreutils/ls>
 or available locally via: info '(coreutils) ls invocation'
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$  ls -F Desktop\[K
-[?2004lls: cannot access 'Desktop': No such file or directory
+[?2004l
+ls: cannot access 'Desktop': No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd C:\Users\ayushi.jain\Desktop\shell-lesson-data
-[?2004lbash: cd: C:Usersayushi.jainDesktopshell-lesson-data: No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ C:\Users\ayushi.jain\Desktop\shell-lesson-data"cC:\Users\ayushi.jain\Desktop\shell-lesson-data"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CdC:\Users\ayushi.jain\Desktop\shell-lesson-data"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C C:\Users\ayushi.jain\Desktop\shell-lesson-data"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"C:\Users\ayushi.jain\Desktop\shell-lesson-data"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004lbash: cd: C:\Users\ayushi.jain\Desktop\shell-lesson-data: No such file or directory
+[?2004l
+bash: cd: C:Usersayushi.jainDesktopshell-lesson-data: No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ C:\Users\ayushi.jain\Desktop\shell-lesson-data"cC:\Users\ayushi.jain\Desktop\shell-lesson-data"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CdC:\Users\ayushi.jain\Desktop\shell-lesson-data"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C C:\Users\ayushi.jain\Desktop\shell-lesson-data"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"C:\Users\ayushi.jain\Desktop\shell-lesson-data"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+bash: cd: C:\Users\ayushi.jain\Desktop\shell-lesson-data: No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd
-[?2004l[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd "C:\Users\ayushi.jain\Desktop\shell-lesson-data"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kls
-[?2004l[0m[01;34mlibgit2[0m  my_unix_session  [01;34mshell-lesson-data[0m  [01;31mshell-lesson-data.zip[0m  shell-lesson-data.zip:Zone.Identifier
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd "C:\Users\ayushi.jain\Desktop\shell-lesson-data"
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kls
+[?2004l
+[0m[01;34mlibgit2[0m  my_unix_session  [01;34mshell-lesson-data[0m  [01;31mshell-lesson-data.zip[0m  shell-lesson-data.zip:Zone.Identifier
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd shell-lesson-data/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ ls
-[?2004l[0m[01;34mshell-lesson-data[0m
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ ls
+[?2004l
+[0m[01;34mshell-lesson-data[0m
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ ls [K shell-lesson-data
-[?2004l[0m[01;34mexercise-data[0m  [01;34mnorth-pacific-gyre[0m
+[?2004l
+[0m[01;34mexercise-data[0m  [01;34mnorth-pacific-gyre[0m
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ ls shell-lesson-data/[K[K[Kcd shell-lesson-data/ls[Kcd shell-lesson-data/exercise-data/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ pwd
-[?2004l/home/ayushi/shell-lesson-data/shell-lesson-data/exercise-data
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ pwd
+[?2004l
+/home/ayushi/shell-lesson-data/shell-lesson-data/exercise-data
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ ls -F
-[?2004l[0m[01;34malkanes[0m/  [01;34manimal-counts[0m/  [01;34mcreatures[0m/  numbers.txt  numbers.txt:Zone.Identifier  [01;34mwriting[0m/
+[?2004l
+[0m[01;34malkanes[0m/  [01;34manimal-counts[0m/  [01;34mcreatures[0m/  numbers.txt  numbers.txt:Zone.Identifier  [01;34mwriting[0m/
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ ls -F[2Ppwdcd shell-lesson-data/exercise-data/[14Pls shell-lesson-data/cd shell-lesson-data/exercise-data/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
-[?2004lbash: cd: shell-lesson-data: No such file or directory
+[?2004l
+bash: cd: shell-lesson-data: No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ cd ..
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ pwd
-[?2004l/home/ayushi/shell-lesson-data/shell-lesson-data
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ [K]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ $ ls -F -a
-[?2004l$: command not found
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ pwd
+[?2004l
+/home/ayushi/shell-lesson-data/shell-lesson-data
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ 
+[K]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ $ ls -F -a
+[?2004l
+$: command not found
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ cd ..
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ cd ..$ ls -F -a
-[?2004l$: command not found
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ cd ..$ ls -F -a
+[?2004l
+$: command not found
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ cd shell-lesson-data/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ cd shell-lesson-data/[11P$ ls -F -a[1P[1P
-[?2004l[0m[01;34m.[0m/  [01;34m..[0m/  [01;34mexercise-data[0m/  [01;34mnorth-pacific-gyre[0m/
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ cd shell-lesson-data/[11P$ ls -F -a[1P[1P
+[?2004l
+[0m[01;34m.[0m/  [01;34m..[0m/  [01;34mexercise-data[0m/  [01;34mnorth-pacific-gyre[0m/
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ cd 
-[?2004l[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ pwd
-[?2004l/home/ayushi
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ pwd
+[?2004l
+/home/ayushi
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd 
 .git/              libgit2/           shell-lesson-data/ 
 ]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd cd shell-lesson-data/
-[?2004lbash: cd: too many arguments
+[?2004l
+bash: cd: too many arguments
 [?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd shell-lesson-data/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ pwd
-[?2004l/home/ayushi/shell-lesson-data
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ pwd
+[?2004l
+/home/ayushi/shell-lesson-data
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ cd shell-lesson-data/exercise-data/creatures/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ cd  -\
-[?2004l[?2004h> 
-[?2004l/home/ayushi/shell-lesson-data
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ cd 
+ -\
+[?2004l
+[?2004h> 
+[?2004l
+/home/ayushi/shell-lesson-data
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data[00m$ cd -
-[?2004l/home/ayushi/shell-lesson-data/shell-lesson-data/exercise-data/creatures
+[?2004l
+/home/ayushi/shell-lesson-data/shell-lesson-data/exercise-data/creatures
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ls -S exercise-data
-[?2004lls: cannot access 'exercise-data': No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ cd  ..
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ cd ..ls -S exercise-data
-[?2004lls: cannot access 'exercise-data': No such file or directory
+[?2004l
+ls: cannot access 'exercise-data': No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ cd 
+ ..
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ cd ..ls -S exercise-data
+[?2004l
+ls: cannot access 'exercise-data': No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ cd ..
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ cd ..ls -S exercise-data
-[?2004l[0m[01;34malkanes[0m        [01;34mcreatures[0m  numbers.txt
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ cd ..ls -S exercise-data
+[?2004l
+[0m[01;34malkanes[0m        [01;34mcreatures[0m  numbers.txt
 [01;34manimal-counts[0m  [01;34mwriting[0m    numbers.txt:Zone.Identifier
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ ls -F /
-[?2004l[0m[01;36mbin[0m@   [01;34mdev[0m/  [01;34mhome[0m/  [01;36mlib[0m@    [01;36mlib64[0m@   [01;34mmedia[0m/  [01;34mopt[0m/   [01;34mroot[0m/  [01;36msbin[0m@  [01;34msrv[0m/  [30;42mtmp[0m/  [01;34mvar[0m/
+[?2004l
+[0m[01;36mbin[0m@   [01;34mdev[0m/  [01;34mhome[0m/  [01;36mlib[0m@    [01;36mlib64[0m@   [01;34mmedia[0m/  [01;34mopt[0m/   [01;34mroot[0m/  [01;36msbin[0m@  [01;34msrv[0m/  [30;42mtmp[0m/  [01;34mvar[0m/
 [01;34mboot[0m/  [01;34metc[0m/  [01;32minit[0m*  [01;36mlib32[0m@  [01;36mlibx32[0m@  [01;34mmnt[0m/    [01;34mproc[0m/  [01;34mrun[0m/   [01;34msnap[0m/  [01;34msys[0m/  [01;34musr[0m/
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ t[K^[[A[K[K[Kls north-pacific-gyre/
-[?2004lNENE01729A.txt                  NENE01978A.txt:Zone.Identifier
+[?2004l
+NENE01729A.txt                  NENE01978A.txt:Zone.Identifier
 NENE01729A.txt:Zone.Identifier  NENE01978B.txt
 NENE01729B.txt                  NENE01978B.txt:Zone.Identifier
 NENE01729B.txt:Zone.Identifier  NENE02018B.txt
@@ -364,9 +418,11 @@ NENE01971Z.txt                  goodiff.sh:Zone.Identifier
 NENE01971Z.txt:Zone.Identifier  goostats.sh
 NENE01978A.txt                  goostats.sh:Zone.Identifier
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ ls nor
-[?2004lls: cannot access 'nor': No such file or directory
+[?2004l
+ls: cannot access 'nor': No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ ls north-pacific-gyre/
-[?2004lNENE01729A.txt                  NENE01978A.txt:Zone.Identifier
+[?2004l
+NENE01729A.txt                  NENE01978A.txt:Zone.Identifier
 NENE01729A.txt:Zone.Identifier  NENE01978B.txt
 NENE01729B.txt                  NENE01978B.txt:Zone.Identifier
 NENE01729B.txt:Zone.Identifier  NENE02018B.txt
@@ -386,7 +442,8 @@ NENE01971Z.txt                  goodiff.sh:Zone.Identifier
 NENE01971Z.txt:Zone.Identifier  goostats.sh
 NENE01978A.txt                  goostats.sh:Zone.Identifier
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ ls north-pacific-gyre/[Kth-pacific-gyre/goo
-[?2004lls: cannot access 'north-pacific-gyre/goo': No such file or directory
+[?2004l
+ls: cannot access 'north-pacific-gyre/goo': No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ ls north-pacific-gyre/goo[Ko
 goodiff.sh                   goostats.sh
 goodiff.sh:Zone.Identifier   goostats.sh:Zone.Identifier
@@ -400,79 +457,142 @@ goodiff.sh:Zone.Identifier   goostats.sh:Zone.Identifier
 goodiff.sh                   goostats.sh
 goodiff.sh:Zone.Identifier   goostats.sh:Zone.Identifier
 ]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ ls north-pacific-gyre/goo[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpwd
-[?2004l/home/ayushi/shell-lesson-data/shell-lesson-data
+[?2004l
+/home/ayushi/shell-lesson-data/shell-lesson-data
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data[00m$ cd exercise-data/writing/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls - F
-[?2004lLittleWomen.txt                  haiku.txt
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls - 
+F
+[?2004l
+LittleWomen.txt                  haiku.txt
 LittleWomen.txt:Zone.Identifier  haiku.txt:Zone.Identifier
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ mkdi r thesis
-[?2004lmkdir: cannot create directory ‘thesis’: Permission denied
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls - F
-[?2004lLittleWomen.txt                  haiku.txt
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ mkdi 
+r thesis
+[?2004l
+mkdir: cannot create directory ‘thesis’: Permission denied
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls - 
+F
+[?2004l
+LittleWomen.txt                  haiku.txt
 LittleWomen.txt:Zone.Identifier  haiku.txt:Zone.Identifier
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ mkdi r thesis
-[?2004lmkdir: cannot create directory ‘thesis’: Permission denied
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ mkdi 
+r thesis
+[?2004l
+mkdir: cannot create directory ‘thesis’: Permission denied
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls -FR ../project
-[?2004lls: cannot access '../project': No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls -FR ../project[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kmkdir -p ../project/data ../project/results
-[?2004lmkdir: cannot create directory ‘../project’: Permission denied
+[?2004l
+ls: cannot access '../project': No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls -FR ../project[K[K[K[K[K[K[K[K[K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kmkdir -p ../project/data ../project/results
+[?2004l
 mkdir: cannot create directory ‘../project’: Permission denied
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ nano  draft.txt
-[?2004l[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;26H(B[0;1m[37m[41m[ Directory '.' is not writable ][39;49m(B[m[H(B[0;7m  GNU nano 6.2                         draft.txt                                   [1;82H(B[m[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[41d(B[0;7mFile Name to Write: draft.txt                                                      [41;30H(B[m[?12l[?25h[?25l(B[0;7md(B[m[?12l[?25h[?25l(B[0;7mr(B[m[?12l[?25h[?25l(B[0;7ma(B[m[?12l[?25h[?25l(B[0;7m=(B[m[?12l[?25h[?25l(B[0;7m=(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[41;18H[1K (B[0;1m[37m[41m[ Error writing draft.txt: Permission denied ][39;49m(B[m[K[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[2d[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ touc h my)[K_file.txt
-[?2004ltouch: cannot touch 'my_file.txt': Permission denied
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ rm f ile.txt
-[?2004lrm: cannot remove 'file.txt': No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ rm file.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmfile.txtyfile.txt[C_file.txt[C[C
-[?2004lrm: cannot remove 'my_file.txt': No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls - F
-[?2004lLittleWomen.txt                  haiku.txt
+mkdir: cannot create directory ‘../project’: Permission denied
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ nano 
+ draft.txt
+[?2004l
+[?2004h[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;26H(B[0;1m[37m[41m[ Directory '.' is not writable ][39;49m(B[m[H(B[0;7m  GNU nano 6.2                         draft.txt                                   [1;82H(B[m
+[42d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location
+[43d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line
+[2d[?12l[?25h[?25l[42;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K
+[41d(B[0;7mFile Name to Write: draft.txt                                                      [41;30H(B[m[?12l[?25h[?25l(B[0;7md(B[m[?12l[?25h[?25l(B[0;7mr(B[m[?12l[?25h[?25l(B[0;7ma(B[m[?12l[?25h[?25l(B[0;7m=(B[m[?12l[?25h[?25l(B[0;7m=(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[41;18H[1K (B[0;1m[37m[41m[ Error writing draft.txt: Permission denied ][39;49m(B[m[K[42;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[43;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h
+[2d[?25l[41d[J[43d[?12l[?25h[43;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ touc 
+h my)[K_file.txt
+[?2004l
+touch: cannot touch 'my_file.txt': Permission denied
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ rm f 
+ile.txt
+[?2004l
+rm: cannot remove 'file.txt': No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ rm file.txt
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmfile.txt
+yfile.txt
+[C_file.txt
+[C[C
+[?2004l
+rm: cannot remove 'my_file.txt': No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls - 
+F
+[?2004l
+LittleWomen.txt                  haiku.txt
 LittleWomen.txt:Zone.Identifier  haiku.txt:Zone.Identifier
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ rm q uotes,[K.txt
-[?2004lrm: cannot remove 'quotes.txt': No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls q uotes.txt
-[?2004lls: cannot access 'quotes.txt': No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ mkdi r bax[Kckup
-[?2004lmkdir: cannot create directory ‘backup’: Permission denied
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ cd c [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. .
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ cd creatures/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ls  -F
-[?2004lbasilisk.dat                  minotaur.dat:Zone.Identifier
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ rm q 
+uotes,[K.txt
+[?2004l
+rm: cannot remove 'quotes.txt': No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ ls q 
+uotes.txt
+[?2004l
+ls: cannot access 'quotes.txt': No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ mkdi 
+r bax[Kckup
+[?2004l
+mkdir: cannot create directory ‘backup’: Permission denied
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/writing[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/writing[00m$ cd c 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. 
+.
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ cd creatures/
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ls 
+ -F
+[?2004l
+basilisk.dat                  minotaur.dat:Zone.Identifier
 basilisk.dat:Zone.Identifier  unicorn.dat
 minotaur.dat                  unicorn.dat:Zone.Identifier
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ cp minotaur.dat unicorn.dat basilisk.dat
-[?2004lcp: target 'basilisk.dat' is not a directory
+[?2004l
+cp: target 'basilisk.dat' is not a directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ls *t*ane.pdb
-[?2004lls: cannot access '*t*ane.pdb': No such file or directory
+[?2004l
+ls: cannot access '*t*ane.pdb': No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ls *t?ne.*
-[?2004lls: cannot access '*t?ne.*': No such file or directory
+[?2004l
+ls: cannot access '*t?ne.*': No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ls ethane.*
-[?2004lls: cannot access 'ethane.*': No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ls  -f
-[?2004l.             basilisk.dat:Zone.Identifier  unicorn.dat
+[?2004l
+ls: cannot access 'ethane.*': No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ls 
+ -f
+[?2004l
+.             basilisk.dat:Zone.Identifier  unicorn.dat
 ..            minotaur.dat                  unicorn.dat:Zone.Identifier
 basilisk.dat  minotaur.dat:Zone.Identifier
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ls analyzed
-[?2004lls: cannot access 'analyzed': No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ cd  ../
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ LS
-[?2004lLS: command not found
+[?2004l
+ls: cannot access 'analyzed': No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ cd 
+ ../
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ LS
+[?2004l
+LS: command not found
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ ls
-[?2004l[0m[01;34malkanes[0m        [01;34mcreatures[0m    numbers.txt:Zone.Identifier
+[?2004l
+[0m[01;34malkanes[0m        [01;34mcreatures[0m    numbers.txt:Zone.Identifier
 [01;34manimal-counts[0m  numbers.txt  [01;34mwriting[0m
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ cd ../[K[K[Kalkanes/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ ls
-[?2004lcubane.pdb                   octane.pdb
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ ls
+[?2004l
+cubane.pdb                   octane.pdb
 cubane.pdb:Zone.Identifier   octane.pdb:Zone.Identifier
 ethane.pdb                   pentane.pdb
 ethane.pdb:Zone.Identifier   pentane.pdb:Zone.Identifier
 methane.pdb                  propane.pdb
 methane.pdb:Zone.Identifier  propane.pdb:Zone.Identifier
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ wc c ubane.pdb
-[?2004l  20  156 1158 cubane.pdb
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ wc * .pdb
-[?2004l  20  156 1158 cubane.pdb
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ wc c 
+ubane.pdb
+[?2004l
+  20  156 1158 cubane.pdb
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ wc * 
+.pdb
+[?2004l
+  20  156 1158 cubane.pdb
   12   84  622 ethane.pdb
    9   57  422 methane.pdb
   30  246 1828 octane.pdb
@@ -480,45 +600,68 @@ methane.pdb:Zone.Identifier  propane.pdb:Zone.Identifier
   15  111  825 propane.pdb
  107  819 6081 total
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ wc -l *.pdb
-[?2004l  20 cubane.pdb
+[?2004l
+  20 cubane.pdb
   12 ethane.pdb
    9 methane.pdb
   30 octane.pdb
   21 pentane.pdb
   15 propane.pdb
  107 total
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ we[Kc - l
-[?2004l^[[B^[[B        
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ we[Kc - 
+l
+[?2004l
+^[[B^[[B        
 ^[[A^[[A        ^C
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ wc -l[A]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ [K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l *.pdb > lengths.txt
-[?2004lbash: lengths.txt: Permission denied
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ ls l ength.txt
-[?2004lls: cannot access 'length.txt': No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cat  length [Ks.txt
-[?2004lcat: lengths.txt: No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ wc -l[A
+]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ [K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l *.pdb > lengths.txt
+[?2004l
+bash: lengths.txt: Permission denied
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ ls l 
+ength.txt
+[?2004l
+ls: cannot access 'length.txt': No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cat  
+length [Ks.txt
+[?2004l
+cat: lengths.txt: No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd 
-[?2004l[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd ..
-[?2004l[?2004h]0;ayushi@TIGER02458: /home[01;32mayushi@TIGER02458[00m:[01;34m/home[00m$ cd ..[Kcd[K[Kpwd
-[?2004l/home
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~[01;32mayushi@TIGER02458[00m:[01;34m~[00m$ cd ..
+[?2004l
+[?2004h]0;ayushi@TIGER02458: /home[01;32mayushi@TIGER02458[00m:[01;34m/home[00m$ cd ..[Kcd[K[Kpwd
+[?2004l
+/home
 [?2004h]0;ayushi@TIGER02458: /home[01;32mayushi@TIGER02458[00m:[01;34m/home[00m$ cd ayushi/shell-lesson-data/shell-lesson-data/exercise-data/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ sort numbers .txt
-[?2004l10
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ sort numbers 
+.txt
+[?2004l
+10
 19
 2
 22
 6
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ sort -n lengths.txt > sorted-lengths.txt[1Ps.txths.txt
-[?2004lbash: sorted-lengths.txt: Permission denied
+[?2004l
+bash: sorted-lengths.txt: Permission denied
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ echo hello > testfile01.txt
-[?2004lbash: testfile01.txt: Permission denied
+[?2004l
+bash: testfile01.txt: Permission denied
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ sort -n lengths.txt | head -n 1
-[?2004lsort: cannot read: lengths.txt: No such file or directory
+[?2004l
+sort: cannot read: lengths.txt: No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ cd alkanes/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd alkanes/[A]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ sort -n lengths.txt | head -n 1
-[?2004lsort: cannot read: lengths.txt: No such file or directory
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd alkanes/[A
+]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ sort -n lengths.txt | head -n 1
+[?2004l
+sort: cannot read: lengths.txt: No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$  wc -l *.pdb | sort -n
-[?2004l   9 methane.pdb
+[?2004l
+   9 methane.pdb
   12 ethane.pdb
   15 propane.pdb
   20 cubane.pdb
@@ -526,14 +669,23 @@ methane.pdb:Zone.Identifier  propane.pdb:Zone.Identifier
   30 octane.pdb
  107 total
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ wc -l *.pdb | sort -n | head -n 1
-[?2004l   9 methane.pdb
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd . ./a[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K . ./
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ cd animal-counts/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/animal-counts[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/animal-counts[00m$ cat animals.csv | head -n 5 | tail -n 3 | sort -r > final.txt
-[?2004lbash: final.txt: Permission denied
+[?2004l
+   9 methane.pdb
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd . 
+./a[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K . 
+./
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data[00m$ cd animal-counts/
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/animal-counts[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/animal-counts[00m$ cat animals.csv | head -n 5 | tail -n 3 | sort -r > final.txt
+[?2004l
+bash: final.txt: Permission denied
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/animal-counts[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/animal-counts[00m$ cut -d , -f 2 animals.csv
-[?2004ldeer
+[?2004l
+deer
 rabbit
 raccoon
 rabbit
@@ -542,8 +694,11 @@ fox
 rabbit
 bear
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/animal-counts[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/animal-counts[00m$ cd ../../north-pacific-gyre/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[00m$ wc -l * .txt
-[?2004l  300 NENE01729A.txt
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[00m$ wc -l * 
+.txt
+[?2004l
+  300 NENE01729A.txt
   300 NENE01729B.txt
   300 NENE01736A.txt
   300 NENE01751A.txt
@@ -562,23 +717,31 @@ bear
   300 NENE02043B.txt
  5040 total
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[00m$  wc -l *.txt | sort -n | head -n 5
-[?2004l  240 NENE02018B.txt
+[?2004l
+  240 NENE02018B.txt
   300 NENE01729A.txt
   300 NENE01729B.txt
   300 NENE01736A.txt
   300 NENE01751A.txt
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[00m$ wc -l *.txt | sort -n | tail -n 5
-[?2004l  300 NENE02040B.txt
+[?2004l
+  300 NENE02040B.txt
   300 NENE02040Z.txt
   300 NENE02043A.txt
   300 NENE02043B.txt
  5040 total
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[00m$ ls *Z.txt
-[?2004lNENE01971Z.txt  NENE02040Z.txt
+[?2004l
+NENE01971Z.txt  NENE02040Z.txt
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[00m$ 
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[00m$ cd ../e c[Kxercise-data/creatures/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ head -n 5 basilisk.dat minotaur.dat unicorn.dat
-[?2004l==> basilisk.dat <==
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/north-pacific-gyre[00m$ cd ../e 
+c
+[Kxercise-data/creatures/
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ head -n 5 basilisk.dat minotaur.dat unicorn.dat
+[?2004l
+==> basilisk.dat <==
 COMMON NAME: basilisk
 CLASSIFICATION: basiliscus vulgaris
 UPDATED: 1745-05-02
@@ -599,94 +762,153 @@ UPDATED: 1738-11-24
 AGCCGGGTCG
 CTTTACCTTA
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ for thing in list_of_things [K
-[?2004l[?2004h> do
-[?2004l[?2004h> operation_using/command $thing [K
-[?2004l[?2004h> done
-[?2004lbash: operation_using/command: No such file or directory
+[?2004l
+[?2004h> do
+[?2004l
+[?2004h> operation_using/command $thing [K
+[?2004l
+[?2004h> done
+[?2004l
+bash: operation_using/command: No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ for filename in basilisk.dat minotaur.dat unicorn.dat
-[?2004l[?2004h> > do
-[?2004lbash: syntax error near unexpected token `>'
+[?2004l
+[?2004h> > do
+[?2004l
+bash: syntax error near unexpected token `>'
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ >     echo $filename
-[?2004lbash: echo: Permission denied
+[?2004l
+bash: echo: Permission denied
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ >     head -n 2 $filename | tail -n 1
-[?2004lbash: head: Permission denied
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ > done][K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfor filename in basilisk.dat minotaur.dat unicorn.dat
-[?2004l[?2004h> do 
-[?2004l[?2004h> echo $filename
-[?2004l[?2004h>  head -n 2 $filename | tail -n 1[1P
-[?2004l[?2004h> done
-[?2004lbasilisk.dat
+[?2004l
+bash: head: Permission denied
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ > done][K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfor filename in basilisk.dat minotaur.dat unicorn.dat
+[?2004l
+[?2004h> do 
+[?2004l
+[?2004h> echo $filename
+[?2004l
+[?2004h>  head -n 2 $filename | tail -n 1[1P
+[?2004l
+[?2004h> done
+[?2004l
+basilisk.dat
 CLASSIFICATION: basiliscus vulgaris
 minotaur.dat
 CLASSIFICATION: bos hominus
 unicorn.dat
 CLASSIFICATION: equus monoceros
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ for x in basilisk.dat minotaur.dat unicorn.dat
-[?2004l[?2004h> do 
-[?2004l[?2004h> head -n 2 $x | tail -n 1
-[?2004l[?2004h> done
-[?2004lCLASSIFICATION: basiliscus vulgaris
+[?2004l
+[?2004h> do 
+[?2004l
+[?2004h> head -n 2 $x | tail -n 1
+[?2004l
+[?2004h> done
+[?2004l
+CLASSIFICATION: basiliscus vulgaris
 CLASSIFICATION: bos hominus
 CLASSIFICATION: equus monoceros
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ for temperature in basilisk.dat minotaur.dat unicorn.dat
-[?2004l[?2004h> do
-[?2004l[?2004h> he[K[K head -n 2 $temperature | tail -n 1
-[?2004l[?2004h> done
-[?2004lCLASSIFICATION: basiliscus vulgaris
+[?2004l
+[?2004h> do
+[?2004l
+[?2004h> he[K[K head -n 2 $temperature | tail -n 1
+[?2004l
+[?2004h> done
+[?2004l
+CLASSIFICATION: basiliscus vulgaris
 CLASSIFICATION: bos hominus
 CLASSIFICATION: equus monoceros
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ for datafile in *.pdb
-[?2004l[?2004h> do 
-[?2004l[?2004h> ls *.pdb
-[?2004l[?2004h> done
-[?2004lls: cannot access '*.pdb': No such file or directory
+[?2004l
+[?2004h> do 
+[?2004l
+[?2004h> ls *.pdb
+[?2004l
+[?2004h> done
+[?2004l
+ls: cannot access '*.pdb': No such file or directory
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ for datafile in *.pdb
-[?2004l[?2004h> 
-[?2004l[?2004h> do
-[?2004l[?2004h> ls $datafile
-[?2004l[?2004h> done
-[?2004lls: cannot access '*.pdb': No such file or directory
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ cd  ../alkanes/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd ../alkanes/[A]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for datafile in *.pdb do ls $datafile; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P; do  ls *.pdb[C[C[C[C[C[C
-[?2004lcubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+[?2004l
+[?2004h> 
+[?2004l
+[?2004h> do
+[?2004l
+[?2004h> ls $datafile
+[?2004l
+[?2004h> done
+[?2004l
+ls: cannot access '*.pdb': No such file or directory
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ cd 
+ ../alkanes/
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd ../alkanes/[A
+]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for datafile in *.pdb do ls $datafile; done
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P; do  ls *.pdb[C[C[C[C[C[C
+[?2004l
 cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
 cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
 cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
 cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
 cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for datafile in *.pdb; do  ls *.pdb; done[A]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd ../alkanes/[K[A]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for datafile in *.pdb do ls $datafile; done[A]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd ../alkanes/[K[A]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for datafile in *.pdb do ls $datafile; done
-[?2004lbash: syntax error near unexpected token `done'
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for datafile in *.pdb; do  ls *.pdb; done[A
+]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd ../alkanes/[K[A
+]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for datafile in *.pdb do ls $datafile; done[A
+]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd ../alkanes/[K[A
+]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for datafile in *.pdb do ls $datafile; done
+[?2004l
+bash: syntax error near unexpected token `done'
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for datafile in *.pdb do ls $datafile; done[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
-[?2004l[?2004h> do
-[?2004l[?2004h> ls $datafile
-[?2004l[?2004h> done
-[?2004lcubane.pdb
+[?2004l
+[?2004h> do
+[?2004l
+[?2004h> ls $datafile
+[?2004l
+[?2004h> done
+[?2004l
+cubane.pdb
 ethane.pdb
 methane.pdb
 octane.pdb
 pentane.pdb
 propane.pdb
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for filename in c*
-[?2004l[?2004h> do 
-[?2004l[?2004h> ls $filename
-[?2004l[?2004h> doe[Kne
-[?2004lcubane.pdb
+[?2004l
+[?2004h> do 
+[?2004l
+[?2004h> ls $filename
+[?2004l
+[?2004h> doe[Kne
+[?2004l
+cubane.pdb
 cubane.pdb:Zone.Identifier
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for filename in *c*
-[?2004l[?2004h> do
-[?2004l[?2004h> ls $filename
-[?2004l[?2004h> done
-[?2004lcubane.pdb
+[?2004l
+[?2004h> do
+[?2004l
+[?2004h> ls $filename
+[?2004l
+[?2004h> done
+[?2004l
+cubane.pdb
 cubane.pdb:Zone.Identifier
 octane.pdb
 octane.pdb:Zone.Identifier
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for alkanes in *.pdb
-[?2004l[?2004h> do 
-[?2004l[?2004h> echo $alkanes
-[?2004l[?2004h> cat $alkanes > alkanes.pdb
-[?2004l[?2004h> done
-[?2004lcubane.pdb
+[?2004l
+[?2004h> do 
+[?2004l
+[?2004h> echo $alkanes
+[?2004l
+[?2004h> cat $alkanes > alkanes.pdb
+[?2004l
+[?2004h> done
+[?2004l
+cubane.pdb
 bash: alkanes.pdb: Permission denied
 ethane.pdb
 bash: alkanes.pdb: Permission denied
@@ -698,25 +920,39 @@ pentane.pdb
 bash: alkanes.pdb: Permission denied
 propane.pdb
 bash: alkanes.pdb: Permission denied
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for alkanes in *.pdb; do  echo $alkanes; cat $alkanes > alkanes.pdb; done[A]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ [K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor datafile in *.pdb
-[?2004l[?2004h> do
-[?2004l[?2004h> cat $datafile >> all.pdb
-[?2004l[?2004h> done
-[?2004lbash: all.pdb: Permission denied
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ for alkanes in *.pdb; do  echo $alkanes; cat $alkanes > alkanes.pdb; done[A
+]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ [K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor datafile in *.pdb
+[?2004l
+[?2004h> do
+[?2004l
+[?2004h> cat $datafile >> all.pdb
+[?2004l
+[?2004h> done
+[?2004l
 bash: all.pdb: Permission denied
 bash: all.pdb: Permission denied
 bash: all.pdb: Permission denied
 bash: all.pdb: Permission denied
 bash: all.pdb: Permission denied
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ echo  hello there
-[?2004lhello there
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd . ./creatures/
-[?2004l[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ for filename in *.dat
-[?2004l[?2004h> do $filename
-[?2004l[?2004h> head -n 100 $filename | tail -n 20
-[?2004l[?2004h> done
-[?2004lbasilisk.dat: command not found
+bash: all.pdb: Permission denied
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ echo 
+ hello there
+[?2004l
+hello there
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/alkanes[00m$ cd . 
+./creatures/
+[?2004l
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ for filename in *.dat
+[?2004l
+[?2004h> do $filename
+[?2004l
+[?2004h> head -n 100 $filename | tail -n 20
+[?2004l
+[?2004h> done
+[?2004l
+basilisk.dat: command not found
 CGGTACCGAA
 AAGGGTCGCG
 CAAGTGTTCC
@@ -780,8 +1016,11 @@ CCCTTTGAGG
 GTGGATTTTT
 CGTAACGGGT
 [?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ for filename in *.dat; do $filename; head -n 100 $filename | tail -n 20; done[C[C[1@;[1P[C[1@;
-[?2004lbash: syntax error near unexpected token `;'
-[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ex iy[Kt
-[?2004lexit
+[?2004
+bash: syntax error near unexpected token `;'
+[?2004h]0;ayushi@TIGER02458: ~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[01;32mayushi@TIGER02458[00m:[01;34m~/shell-lesson-data/shell-lesson-data/exercise-data/creatures[00m$ ex 
+iy[Kt
+[?2004l
+exit
 
 Script done on 2023-06-01 17:16:10+05:30 [COMMAND_EXIT_CODE="2"]
